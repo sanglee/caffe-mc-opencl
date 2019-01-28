@@ -1,0 +1,156 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jeonghyeonlee/Project/vienna-lite
+-- Could NOT find Boost
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:577 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:963 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:1622 (_Boost_MISSING_DEPENDENCIES)
+  cmake/ViennaCLCommon.cmake:86 (find_package)
+  CMakeLists.txt:35 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:577 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:963 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:1622 (_Boost_MISSING_DEPENDENCIES)
+  cmake/ViennaCLCommon.cmake:86 (find_package)
+  CMakeLists.txt:35 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:577 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:963 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:1622 (_Boost_MISSING_DEPENDENCIES)
+  cmake/ViennaCLCommon.cmake:86 (find_package)
+  CMakeLists.txt:35 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:577 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:963 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:1622 (_Boost_MISSING_DEPENDENCIES)
+  cmake/ViennaCLCommon.cmake:86 (find_package)
+  CMakeLists.txt:35 (include)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:577 (message):
+  Imported targets and dependency information not available for Boost version
+  (all versions older than 1.33)
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:963 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:1622 (_Boost_MISSING_DEPENDENCIES)
+  cmake/ViennaCLCommon.cmake:86 (find_package)
+  CMakeLists.txt:35 (include)
+
+
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/FindBoost.cmake:2048 (message):
+  Unable to find the requested Boost libraries.
+
+  Unable to find the Boost header files.  Please set BOOST_ROOT to the root
+  directory containing Boost or BOOST_INCLUDEDIR to the directory containing
+  Boost's headers.
+Call Stack (most recent call first):
+  cmake/ViennaCLCommon.cmake:86 (find_package)
+  CMakeLists.txt:35 (include)
+
+
+-- Found OPENCL: /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenCL.framework  
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+Boost_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+   used as include directory in directory /Users/jeonghyeonlee/Project/vienna-lite/tests
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/jeonghyeonlee/Project/vienna-lite/cmake-build-debug/CMakeFiles/CMakeOutput.log".
